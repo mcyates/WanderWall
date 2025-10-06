@@ -1,0 +1,16 @@
+/Users/matthewyates/Documents/personal/wallwander/Persistence/bin/Debug/net9.0/Persistence.deps.json
+/Users/matthewyates/Documents/personal/wallwander/Persistence/bin/Debug/net9.0/Persistence.dll
+/Users/matthewyates/Documents/personal/wallwander/Persistence/bin/Debug/net9.0/Persistence.pdb
+/Users/matthewyates/Documents/personal/wallwander/Persistence/bin/Debug/net9.0/Domain.dll
+/Users/matthewyates/Documents/personal/wallwander/Persistence/bin/Debug/net9.0/Domain.pdb
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.csproj.AssemblyReference.cache
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.AssemblyInfoInputs.cache
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.AssemblyInfo.cs
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.sourcelink.json
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persiste.61C28332.Up2Date
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.dll
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/refint/Persistence.dll
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/Persistence.pdb
+/Users/matthewyates/Documents/personal/wallwander/Persistence/obj/Debug/net9.0/ref/Persistence.dll
