@@ -5,7 +5,7 @@
 namespace Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class initialcreate : Migration
+    public partial class addedalttext : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,8 +19,7 @@ namespace Persistence.Migrations
                     Author = table.Column<string>(type: "TEXT", nullable: false),
                     AuthorId = table.Column<string>(type: "TEXT", nullable: false),
                     Url = table.Column<string>(type: "TEXT", nullable: false),
-                    Width = table.Column<int>(type: "INTEGER", nullable: false),
-                    Height = table.Column<int>(type: "INTEGER", nullable: false)
+                    Alt = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

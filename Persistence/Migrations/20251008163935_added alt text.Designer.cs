@@ -10,8 +10,8 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251007151825_initialcreate")]
-    partial class initialcreate
+    [Migration("20251008163935_added alt text")]
+    partial class addedalttext
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,10 @@ namespace Persistence.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Alt")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Author")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -32,9 +36,6 @@ namespace Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Height")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -42,9 +43,6 @@ namespace Persistence.Migrations
                     b.Property<string>("Url")
                         .IsRequired()
                         .HasColumnType("TEXT");
-
-                    b.Property<int>("Width")
-                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 

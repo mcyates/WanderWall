@@ -12,9 +12,6 @@ public class Wallpaper
 
     // image info
     public required string Url { get; set; }
-
-
-    // Dimensions
-    public int Width { get; set; }
-    public int Height { get; set; }
+    // alt text
+    public required string Alt { get; set; }
 }
