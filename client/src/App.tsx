@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ImageC from "./components/ImageC";
+import { Wallpaperlist } from "./components/WallpaperList";
 
 function App() {
   const [wallpapers, setWallpapers] = useState<Wallpaper[]>([]);
@@ -16,13 +16,7 @@ function App() {
         <h1 className="branding">WanderWall</h1>
       </header>
       <main>
-        <ul className="Wallpapers-list">
-          {wallpapers.map((wallpaper: Wallpaper) => (
-            <li key={wallpaper.id}>
-              <ImageC wallpaper={wallpaper} />
-            </li>
-          ))}
-        </ul>
+        <Wallpaperlist images={wallpapers} />
       </main>
     </>
   );

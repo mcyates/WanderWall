@@ -1,8 +1,8 @@
-interface ImageProps {
+interface IImageProps {
   wallpaper: Wallpaper;
 }
 
-export const ImageC: React.FC<ImageProps> = ({ wallpaper }) => {
+export const ImageC: React.FC<IImageProps> = ({ wallpaper }) => {
   return <img className="thumbnail" src={wallpaper.url} alt={wallpaper.alt} />;
 };
 
