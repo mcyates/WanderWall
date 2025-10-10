@@ -1,13 +1,11 @@
-@use "./abstracts/variables";
-@use "./abstracts/mixins";
+@use "./abstracts/abstracts";
 
-@use "./base/reset";
-@use "./base/typography";
+@use "./base/base";
 
-@use "./layout/header";
+@use "./layout/layout";
 
-@use "./components/button";
+@use "./components/component";
 
-@use "./pages/home";
+@use "./pages/pages";
 
-@use "./themes/default";
+@use "./themes/themes";

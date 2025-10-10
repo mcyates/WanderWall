@@ -1,4 +1,4 @@
-type Wallpaper = {
+ type  Wallpaper =  {
     id: string,
     title: string,
     author: string,

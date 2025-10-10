@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Image from "./components/Image";
+import ImageC from "./components/ImageC";
 
 function App() {
-  const [wallpapers, setWallpapers] = useState([]);
+  const [wallpapers, setWallpapers] = useState<Wallpaper[]>([]);
 
   useEffect(() => {
     fetch("https://localhost:5030/api/wallpapers")
@@ -19,7 +19,7 @@ function App() {
         <ul className="Wallpapers-list">
           {wallpapers.map((wallpaper: Wallpaper) => (
             <li key={wallpaper.id}>
-              <Image wallpaper={wallpaper} />
+              <ImageC wallpaper={wallpaper} />
             </li>
           ))}
         </ul>
