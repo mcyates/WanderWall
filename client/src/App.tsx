@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 import { Wallpaperlist } from "./components/WallpaperList";
 
 function App() {
   const [wallpapers, setWallpapers] = useState<Wallpaper[]>([]);
 
   useEffect(() => {
-    fetch("https://localhost:5030/api/wallpapers")
-      .then((response) => response.json())
-      .then((data) => setWallpapers(data));
+    axios
+      .get<Wallpaper[]>("https://localhost:5030/api/wallpapers")
+      .then((response) => setWallpapers(response.data));
   }, []);
 
   return (
